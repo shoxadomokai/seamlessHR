@@ -9,43 +9,39 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Customer Stories</title>
+    <title>Careers - SeamlessHR</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/main.css">
     <link rel="stylesheet" href="./assets/utility.css">
+    <link href="./assets/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
     <header class="navigation">
-
-        <nav class="navbar navbar-expand-lg navbar-light px-3 py-3 py-xl-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-3 py-xl-0">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img class="img-fluid" src="./assets/img/seamlessHR-logo.svg"
-                        alt="logo">
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid" src="./assets/img/seamlessHR-logo.svg" alt="logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
+                
+                <div class="collapse navbar-collapse ml-auto justify-content-center mt-lg-0 mt-5 mb-lg-0 mb-3" id="navbarNav">
+                    <ul class="navbar-nav ml-xl-auto mt-lg-0 mt-4">
                         <li class="nav-item mr-xl-4 mr-md-2 mr-0">
                             <input type="checkbox" name="platformDropdownMenuLink" id="platformDropdownMenuLink">
                             <label class="nav-link dropdown-toggle mb-0" for="platformDropdownMenuLink"
                                 id="platformDropdownMenuLabel" aria-haspopup="true" aria-expanded="false"
                                 role="button">Platforms</label>
                             <div class="platform-menu" aria-labelledby="platformDropdownMenuLink">
-                                <div class="container py-5">
-                                    <div class="d-flex align-items-center justify-content-between mb-5">
-                                        <h5 class="mb-0">Your end-to-end HR Platform</h5>
-                                        <label class="mb-0 platform-menu__close" for="platformDropdownMenuLink"
+                                <div class="container pb-5">
+                                    <div class="d-flex align-items-center justify-content-between my-4">
+                                        <!-- <h5 class="mb-0 font-weight-light">Your end-to-end HR Platform</h5> -->
+                                        <label class="mb-0 platform-menu__close ml-auto" for="platformDropdownMenuLink"
                                             aria-haspopup="true" aria-expanded="false" role="button"
                                             title="close dropdown">
                                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -55,95 +51,107 @@
                                             </svg>
                                         </label>
                                     </div>
-                                    <div class="platform-grid mb-4">
-                                        <a class="platform-item" href="core-hr.html" id="exitManagement">
-                                            <div class="platform-item__badge">CORE</div>
-                                            <h6 class="blue-text platform-item__heading">Exit Management</h6>
-                                            <p class="platform-item__text">You can choose to add more options to your
-                                                core or premium plan. Or choose to purchase these add-ons as standalone
-                                            </p>
-                                        </a>
-                                        <a class="platform-item" href="payroll-management.html" id="payrollManagement">
-                                            <h6 class="blue-text platform-item__heading">Payroll Managment</h6>
-                                            <p class="platform-item__text">You can choose to add more options to your
-                                                core or premium plan. Or choose to purchase these add-ons as standalone
-                                            </p>
-                                        </a>
-                                        <a class="platform-item" href="performance-management.html"
-                                            id="performanceManagement">
-                                            <h6 class="blue-text platform-item__heading">Performance Management</h6>
-                                            <p class="platform-item__text">You can choose to add more options to your
-                                                core or premium plan. Or choose to purchase these add-ons as standalone
-                                            </p>
-                                        </a>
-                                        <a class="platform-item" href="recruitment-management.html"
-                                            id="recruitmentManagement">
-                                            <h6 class="blue-text platform-item__heading">Recruitment Management</h6>
-                                            <p class="platform-item__text">You can choose to add more options to your
-                                                core or
-                                                premium plan. Or choose to purchase these add-ons as standalone</p>
-                                        </a>
-                                        <a class="platform-item" href="core-hr.html" id="onboarding">
-                                            <div class="platform-item__badge">CORE</div>
-                                            <h6 class="blue-text platform-item__heading">Onboarding</h6>
-                                            <p class="platform-item__text">You can choose to add more options to your
-                                                core or
-                                                premium plan. Or choose to purchase these add-ons as standalone</p>
-                                        </a>
-                                        <a class="platform-item" href="core-hr.html" id="leaveManagement">
-                                            <div class="platform-item__badge">CORE</div>
-                                            <h6 class="blue-text platform-item__heading">Leave Management</h6>
-                                            <p class="platform-item__text">You can choose to add more options to your
-                                                core or
-                                                premium plan. Or choose to purchase these add-ons as standalone</p>
-                                        </a>
-                                        <a class="platform-item" href="core-hr.html" id="employeeSelfService">
-                                            <div class="platform-item__badge">CORE</div>
-                                            <h6 class="blue-text platform-item__heading">Employee Self Service</h6>
-                                            <p class="platform-item__text">You can choose to add more options to your
-                                                core or
-                                                premium plan. Or choose to purchase these add-ons as standalone</p>
-                                        </a>
-                                        <a class="platform-item" href="core-hr.html" id="HRIS">
-                                            <div class="platform-item__badge">CORE</div>
-                                            <h6 class="blue-text platform-item__heading">HRIS</h6>
-                                            <p class="platform-item__text">You can choose to add more options to your
-                                                core or premium plan. Or choose to purchase these add-ons as standalone
-                                            </p>
-                                        </a>
-                                        <a class="platform-item" href="core-hr.html" id="disciplinary">
-                                            <div class="platform-item__badge">CORE</div>
-                                            <h6 class="blue-text platform-item__heading">Disciplinary</h6>
-                                            <p class="platform-item__text">You can choose to add more options to your
-                                                core or premium plan. Or choose to purchase these add-ons as standalone
-                                            </p>
-                                        </a>
-                                        <a class="platform-item" href="core-hr.html" id="requisitionTravelProcurements">
-                                            <div class="platform-item__badge">CORE</div>
-                                            <h6 class="blue-text platform-item__heading">Requisition, Travel &
-                                                Procurements</h6>
-                                            <p class="platform-item__text">You can choose to add more options to your
-                                                core or
-                                                premium plan. Or choose to purchase these add-ons as standalone</p>
-                                        </a>
-                                        <a class="platform-item" href="core-hr.html" id="advancedReportAnalytics">
-                                            <div class="platform-item__badge">CORE</div>
-                                            <h6 class="blue-text platform-item__heading">Advanced Report & Analytics
-                                            </h6>
-                                            <p class="platform-item__text">You can choose to add more options to your
-                                                core or
-                                                premium plan. Or choose to purchase these add-ons as standalone</p>
-                                        </a>
-                                        <a class="platform-item" href="core-hr.html" id="timeAttendance">
-                                            <h6 class="blue-text platform-item__heading">Time & Attendance</h6>
-                                            <p class="platform-item__text">You can choose to add more options to your
-                                                core or premium plan. Or choose to purchase these add-ons as standalone
-                                            </p>
-                                        </a>
+                                    <div class="mega-menu">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg-3">
+                                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                <a class="nav-link active d-none d-lg-block" id="core-hr-mega-tab" data-toggle="pill" href="#core-hr-mega" role="tab" aria-controls="core-hr-mega" aria-selected="true">
+                                                    <h5 class="text-blue">Core HR</h5>
+                                                    <p class="text-muted">SeamlessHR lets you focus on strategic HR by helping you automate much of your employee lifecycle processes - from hiring through to exit.</p>
+                                                </a>
+                                                <a class="nav-link d-lg-none d-block" href="core-hr.html">
+                                                    <h5 class="text-blue">Core HR</h5>
+                                                    <p class="text-muted">SeamlessHR lets you focus on strategic HR by helping you automate much of your employee lifecycle processes - from hiring through to exit.</p>
+                                                </a>
+                                                <a class="nav-link ml-lg-3 pr-3" href="payroll-management.html">
+                                                    <h5 class="text-blue">Payroll Management</h5>
+                                                    <p>Knock off the complexities involved in running payroll with our easy-to-use software that helps you save time and money.</p>
+                                                </a>
+                                                <a class="nav-link ml-lg-3 pr-3" href="recruitment-management.html">
+                                                    <h5 class="text-blue">Recruitment Management</h5>
+                                                    <p>Reduce time to fill. Attract, engage, hire, and retain the best talents you need to succeed.</p>
+                                                </a>
+                                                <a class="nav-link ml-lg-3 pr-3" href="performance-management.html">
+                                                    <h5 class="text-blue">Performance Management</h5>
+                                                    <p>Boost productivity and accountability in your workforce, and ultimately improve your organizational processes. </p>
+                                                </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="tab-content tabloid blue-bg p-3 p-lg-5 h-100 rounded-lg d-none d-lg-block" id="v-pills-tabContent">
+                                                    <!-- CoreHR Mega menu -->
+                                                <div class="tab-pane fade show active" id="core-hr-mega" role="tabpanel" aria-labelledby="core-hr-mega-tab">
+                                                    <div class="platform-grid mb-4">
+                                                        <a class="platform-item" href="core-hr.html?feature=7" id="exitManagement">
+                                                            <!-- <div class="platform-item__badge">CORE</div> -->
+                                                            <h6 class="blue-text platform-item__heading arrow__link">Exit Management</h6>
+                                                            <p class="platform-item__text">Provide a pleasant offboarding experience for your exiting staff. Create exit policies, conduct exit interviews, and accurately calculate severance pay.</p>
+                                                        </a>
+                                                        <a class="platform-item" href="core-hr.html?feature=0" id="onboarding">
+                                                            <!-- <div class="platform-item__badge">CORE</div> -->
+                                                            <h6 class="blue-text platform-item__heading arrow__link">Onboarding</h6>
+                                                            <p class="platform-item__text">Increase retention rate through successful onboarding of new hires with the most efficient tool you’d ever find.</p>
+                                                        </a>
+                                                        <a class="platform-item" href="core-hr.html?feature=2" id="leaveManagement">
+                                                            <!-- <div class="platform-item__badge">CORE</div> -->
+                                                            <h6 class="blue-text platform-item__heading arrow__link">Leave Management</h6>
+                                                            <p class="platform-item__text">Automate all your leave processes and requests, and access accurate time-off calculations with ease</p>
+                                                        </a>
+                                                        <a class="platform-item" href="core-hr.html?feature=5" id="employeeSelfService">
+                                                            <!-- <div class="platform-item__badge">CORE</div> -->
+                                                            <h6 class="blue-text platform-item__heading arrow__link">Employee Self Service</h6>
+                                                            <p class="platform-item__text">Empower your employees to take charge and make requests, access their payslips, and edit their data.</p>
+                                                        </a>
+                                                        <a class="platform-item" href="core-hr.html?feature=1" id="HRIS">
+                                                            <!-- <div class="platform-item__badge">CORE</div> -->
+                                                            <h6 class="blue-text platform-item__heading arrow__link">HRIS</h6>
+                                                            <p class="platform-item__text">Keen on doing HR the most productive way? Quit having employees’ data in silos. Make quality decisions with your data all in one place.</p>
+                                                        </a>
+                                                        <a class="platform-item" href="core-hr.html?feature=3" id="disciplinary">
+                                                            <!-- <div class="platform-item__badge">CORE</div> -->
+                                                            <h6 class="blue-text platform-item__heading arrow__link">Disciplinary</h6>
+                                                            <p class="platform-item__text">Increase transparency, and achieve a positive work environment. Set up disciplinary policies and workflows, and track all disciplinary cases.</p>
+                                                        </a>
+                                                        <a class="platform-item" href="core-hr.html?feature=4" id="requisitionTravelProcurements">
+                                                            <!-- <div class="platform-item__badge">CORE</div> -->
+                                                            <h6 class="blue-text platform-item__heading arrow__link">Requisition, Travel &
+                                                                Procurements</h6>
+                                                            <p class="platform-item__text">Track, verify and approve all activities linked to employees’ requests. No more delays in paying your employees for work related travel expenses. </p>
+                                                        </a>
+                                                        <a class="platform-item" href="core-hr.html?feature=8" id="advancedReportAnalytics">
+                                                            <!-- <div class="platform-item__badge">CORE</div> -->
+                                                            <h6 class="blue-text platform-item__heading arrow__link">Advanced Report & Analytics
+                                                            </h6>
+                                                            <p class="platform-item__text">Capitalize on unrestricted access to comprehensive data to make strategic decisions. Collect and analyze data to improve workforce strategies.</p>
+                                                        </a>
+                                                        <a class="platform-item" href="core-hr.html?feature=6" id="timeAttendance">
+                                                            <h6 class="blue-text platform-item__heading arrow__link">Time & Attendance</h6>
+                                                            <p class="platform-item__text">Track work hours of staff automatically, and improve payroll accuracy with biometric and payroll integrations.</p>
+                                                        </a>
+                                                    </div>
+                                                    <div class="pt-5">
+                                                        <p class="text-center">
+                                                            <a href="core-hr.html" class="btn btn-primary text-white">Learn more</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            </div>
                                     </div>
-                                    <a href="contact.html" class="platform-menu__link text-center">Looking for more?
-                                        Contact us</a>
 
+                                    <div class="d-lg-flex justify-content-between align-items-center mt-5">
+                                        <div><a href="contact.html" class="text-center text-lg-left platform-menu__link text-left arrow__link">Looking for more?
+                                            Contact us</a></div>
+                                        <div>
+                                            <div class="text-center text-lg-left mt-lg-0 mt-4">
+                                                <a href="https://www.facebook.com/seamlesshrlimited/" target="_blank"><img width="35px" src="./assets/img/facebook.svg" alt="facebook" class="img-fluid mr-2"></a>
+                                                <a href="https://www.linkedin.com/company/seamlesshr-limited/?originalSubdomain=ng" target="_blank"><img width="35px" src="./assets/img/linkedin.svg" alt="linkedin" class="img-fluid mr-2"></a>
+                                                <a href="https://twitter.com/seamless_hr?lang=en" target="_blank"><img width="35px" src="./assets/img/twitter.svg" alt="twitter" class="img-fluid mr-2"></a>
+                                                <a href="https://www.instagram.com/seamless_hr/?hl=en " target="_blank"><img width="35px" src="./assets/img/instagram.svg" alt="instagram" class="img-fluid"></a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -174,11 +182,18 @@
                         <li class="nav-item mr-xl-4 mr-md-2 mr-0">
                             <a class="nav-link" href="contact.html">Contact us</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="sign-up/index.html" class="btn button btn-success my-2 my-sm-0">Get Started</a>
-                        </li>
                     </ul>
                 </div>
+
+                <div class="ml-auto">
+                    <a href="sign-up/index.html" class="btn px-lg-3 cta_btn btn-success my-2 my-sm-0">Get Started</a>
+                </div>
+
+                <button class="navbar-toggler ml-auto border-0 px-0 mobile_menu_trigger" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
             </div>
         </nav>
 
@@ -186,21 +201,21 @@
 
     <section class="hero careers-hero py-5">
         <div class="container">
-            <div class="row d-flex flex-wrap align-items-center">
+            <div class="row d-flex my-lg-5 flex-wrap align-items-center">
                 <div class="col-xl-5 mb-5 mb-xl-0">
-                    <h1 class="font-weight-bold">We do the most for what we love.</h1>
+                    <h1 class="font-weight-bold mb-4">We do the most for what we love.</h1>
                     <p class="mb-5 text-secondary">We are passionate about helping companies optimise their HR
                         processes, and improve the quality of life. Does this sound like something you're interested in?
                         Take a walk with us.
                     </p>
                     <a href="#" class="btn button btn-primary text-16px">See Openings</a>
-                    <div class="text-right plane-wrapper">
+                    <!-- <div class="text-right plane-wrapper">
                         <img src="./assets/img/careers/plane-2.svg" alt="" class="img-fluid">
-                    </div>
+                    </div> -->
                 </div>
                 <div class="offset-xl-1 col-xl-6 text-right">
                     <div class="image-bg">
-                        <img src="./assets/img/careers/video.svg" alt="video" class="img-fluid video">
+                        <img src="./assets/img/careers/video.jpg" alt="video" class="img-fluid video">
                         <img src="./assets/img/careers/plane.svg" alt="plane" class="img-fluid plane">
                     </div>
                 </div>
@@ -209,19 +224,36 @@
 
     </section>
 
-    <section id="coreValues" class="padding-y-normal">
+    <section id="coreValues" class="darkblue-bg py-5">
         <div class="container">
-            <h2 class="text-blue">Our Core Values</h2>
-            <p>Our Values are what we believe in. They make us the team we are today</p>
+            <h2 class="text-white">Our Core Values</h2>
+            <p class="text-powderblue">Our Values are what we believe in. They make us the team we are today</p>
         </div>
-        <ul class="values__list pl-0 slide-scroll mt-5">
+        <ul class="values__list pl-0 slide-scroll my-5">
             <div class="container">
+
+                <li class="values__item text-center excellence">
+                    <img class="values__image" src="./assets/img/careers/excellence.svg" alt="">
+                    <h4 class="font-weight-bold">Excellence</h4>
+                    <p class="text-16px">We trust amazing people to do amazing things. We are intentional, and we demand the best of ourselves.</p>
+                </li>
+
+                <li class="values__item text-center judgement">
+                    <img class="values__image" src="./assets/img/careers/judgement.svg" alt="">
+                    <h4 class="font-weight-bold">Judgement</h4>
+                    <p class="text-16px">We seek the truth and deal in facts, not conjecture, and we challenge ideas to ensure we are doing the best at all times.</p>
+                </li>
+
+                <li class="values__item text-center innovation">
+                    <img class="values__image" src="./assets/img/careers/innovation.svg" alt="">
+                    <h4 class="font-weight-bold">Innovation</h4>
+                    <p class="text-16px">The bar isn’t static. We study problems and find better ways to achieve better results.</p>
+                </li>
 
                 <li class="values__item text-center candor">
                     <img class="values__image" src="./assets/img/careers/candor.svg" alt="">
                     <h4 class="font-weight-bold">Candor</h4>
-                    <p class="text-16px">The humans of SeamlessHR speak honestly and openly without any fear and
-                        challenge behaviour that is not consistent with our culture.</p>
+                    <p class="text-16px">The humans of SeamlessHR speak honestly and openly without any fear and challenge behaviour that is not consistent with our culture.</p>
                 </li>
 
                 <li class="values__item text-center selflessness">
@@ -254,14 +286,14 @@
         </ul>
     </section>
 
-    <section id="benefits" class="margin-bottom-small">
-        <div class="container">
-            <h2 class="text-blue">Benefits of working with us</h2>
+    <section id="benefits" class="pt-5 margin-bottom-small">
+        <div class="container pt-lg-4">
+            <h2 class="text-blue mb-3">Benefits of working with us</h2>
             <p class="col-md-8 pl-0 margin-bottom-small">
-                At SeamlessHR, you get lot of great benefits from working with us. I also need some copy here the will
-                explain the heading about as a sub-explainer something
+                At SeamlessHR, we care about creating a wonderful work experience for employees. Along with a competitive salary, here are some of the benefits we offer:
             </p>
             <div class="row">
+
                 <div class="col-md-4 mb-5 pr-md-5">
                     <img width="83px" src="./assets/img/careers/health.svg" alt="" class="img-fluid mb-4">
                     <h5>Health Insurance</h5>
@@ -294,8 +326,8 @@
 
                 <div class="col-md-4 mb-5 pr-md-5">
                     <img width="83px" src="./assets/img/careers/macbook.svg" alt="" class="img-fluid mb-4">
-                    <h5>Macbook</h5>
-                    <p class="text-secondary text-16px">Staff members receive a Macbook work laptop to give them the
+                    <h5>MacBook</h5>
+                    <p class="text-secondary text-16px">Staff members receive a MacBook work laptop to give them the
                         flexibility
                         to work tasks anytime and anywhere.</p>
                 </div>
@@ -374,33 +406,34 @@
         </div>
     </section>
 
-
     <footer class="footer">
-        <div class="footer__top row">
-            <div class="d-none d-xl-block col-xl-3">
-                <img class="img-fluid" src="./assets/img/footer-left.svg" alt="">
-            </div>
-            <div class="mx-5 mx-xl-0 my-5 my-xl-0 footer__text col-xl-6 d-flex align-items-center
-                justify-content-around text-center text-sm-left">
-                <h5 class="text-white">All-in-one HR Software.<br><span class="mt-3 footer__text--blue">Streamline
-                        your HR </span></h5>
-                <a href="sign-up/index.html" class="mt-4 mt-sm-0 footer__button btn btn-success">Get Started</a>
-            </div>
-            <div class="d-none d-xl-block col-xl-3">
-                <img class="footer__image img-fluid" src="./assets/img/footer-right.svg" alt="">
+        <div class="container-fluid">
+            <div class="footer__top row">
+                <div class="d-none d-xl-block col-xl-3">
+                    <img class="img-fluid" src="./assets/img/footer-left.svg" alt="">
+                </div>
+                <div class="mx-5 mx-xl-0 my-5 my-xl-0 footer__text col-xl-6 d-flex align-items-center
+                    justify-content-around text-center text-sm-left">
+                    <h5 class="text-white">All-in-one HR Software.<br><span class="mt-3 footer__text--blue">Streamline
+                            your HR </span></h5>
+                    <a href="sign-up/index.html" class="mt-4 mt-sm-0 footer__button btn btn-success">Get Started</a>
+                </div>
+                <div class="d-none d-xl-block col-xl-3">
+                    <img class="footer__image img-fluid" src="./assets/img/footer-right.svg" alt="">
+                </div>
             </div>
         </div>
 
         <div class="footer__middle container pt-2">
             <div class="row pb-5">
                 <div class="col-xl-3 col-md-6">
-                    <h6 class="footer__title my-5">solution</h6>
+                    <h6 class="footer__title my-xl-5 my-3">solution</h6>
                     <ul class="footer__list">
                         <li class="footer__list-item">
                             <a class="footer__list-link" href="core-hr.html"> Core HR</a>
                         </li>
                         <li class="footer__list-item">
-                            <a class="footer__list-link" href="payroll-management.html">Payroll</a></li>
+                            <a class="footer__list-link" href="payroll-management.html">Payroll Management</a></li>
                         <li class="footer__list-item">
                             <a class="footer__list-link" href="performance-management.html">Performance management</a>
                         </li>
@@ -410,7 +443,7 @@
                     </ul>
                 </div>
                 <div class="col-xl-4 col-md-6">
-                    <h6 class="footer__title my-5">more</h6>
+                    <h6 class="footer__title my-xl-5 my-3">more</h6>
                     <ul class="footer__list">
                         <li class="footer__list-item">
                             <a class="footer__list-link" href="core-hr.html?feature=0">
@@ -460,7 +493,7 @@
                     </ul>
                 </div>
                 <div class="col-xl-3 col-md-6">
-                    <h6 class="footer__title my-5">company</h6>
+                    <h6 class="footer__title my-xl-5 my-3">company</h6>
                     <ul class="footer__list">
                         <li class="footer__list-item">
                             <a class="footer__list-link" href="about.html">
@@ -477,10 +510,15 @@
                                 Careers
                             </a>
                         </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="contact.html">
+                                Contact us
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-xl-2 col-md-6">
-                    <h6 class="footer__title my-5">resources</h6>
+                    <h6 class="footer__title my-xl-5 my-3">resources</h6>
                     <ul class="footer__list">
                         <li class="footer__list-item">
                             <a class="footer__list-link" href="blog.html">
@@ -503,16 +541,17 @@
                 <div class="col-xl-4 mb-5 mb-xl-0">
                     <div
                         class="row d-flex align-items-center flex-wrap justify-content-center justify-content-xl-start">
-                        <img src="./assets/img/seamlessHR-logo-footer.svg" alt="" class="img-fluid mr-5">
+                        <img src="./assets/img/seamlessHR-logo-footer.svg" alt="" class="img-fluid mr-4">
                         <div class="">
-                            <img src="./assets/img/facebook.svg" alt="facebook" class="img-fluid mr-2">
-                            <img src="./assets/img/linkedin.svg" alt="linkedin" class="img-fluid mr-2">
-                            <img src="./assets/img/twitter.svg" alt="twitter" class="img-fluid">
+                            <a href="https://www.facebook.com/seamlesshrlimited/" target="_blank"><img src="./assets/img/facebook.svg" alt="facebook" class="img-fluid mr-2"></a>
+                            <a href="https://www.linkedin.com/company/seamlesshr-limited/?originalSubdomain=ng" target="_blank"><img src="./assets/img/linkedin.svg" alt="linkedin" class="img-fluid mr-2"></a>
+                            <a href="https://twitter.com/seamless_hr?lang=en" target="_blank"><img src="./assets/img/twitter.svg" alt="twitter" class="img-fluid mr-2"></a>
+                            <a href="https://www.instagram.com/seamless_hr/?hl=en " target="_blank"><img src="./assets/img/instagram.svg" alt="instagram" class="img-fluid"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 mb-5 mb-xl-0 mx-auto text-center text-xl-left">
-                    <p class="footer__address mb-xl-0 text-16px">8, Metalbox Road, Off Acme Road, Ikeja, Lagos <br>
+                    <p class="footer__address mb-xl-0 text-16px ml-lg-3">8, Metalbox Road, Off Acme Road, Ikeja, Lagos <br>
                         +234 (809) 0643 874.
                         hello@seamlesshr.com</p>
                 </div>
@@ -530,16 +569,26 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+    <script src="./assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/navbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r119/three.min.js"
+        integrity="sha512-E1+SnTWyHYoY5MN8wpL0SI4TYbpWN12sHXyEViwbzzEyq6GHxQrPFDzEeUDab4emXcf3Yj41Tht2JZnpo3kjwA=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"
+        integrity="sha512-JO6JyFPJupQKZf7icgZkHwuq/rAQxH7COqvEd4WdK52AtHPedwHog05T69pIelI69jVN/zZbW6TuHfH2mS8j/Q=="
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/hover.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/animation.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            disable: 'mobile'
+        });
+    </script>
 </body>
 
 </html>

@@ -1,6 +1,11 @@
 .container {
+  padding-left: 20px;
+  padding-right: 20px;
+
   @media (min-width: 1200px) {
     max-width: 1250px !important;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -400,7 +405,9 @@
 .appearance-textfield {
   appearance: textfield;
 }
-
+.overflow-h{
+  overflow: hidden;
+}
 .custom-checkbox {
   .inside-label {
     cursor: pointer;
@@ -509,7 +516,7 @@
     box-shadow: 0px 25px 115px rgba(19, 50, 82, 0.2);
     border-radius: 10px;
     min-height: 78px;
-    padding: 25px 35px 25px 95px;
+    padding: 10px 30px 10px 75px;
 
     &::placeholder {
       color: #777;
@@ -527,7 +534,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 35px;
+    margin-left: 25px;
     cursor: pointer;
   }
 }
@@ -591,4 +598,17 @@
       opacity: 1;
     }
   }
+}
+
+.lsp-1 {
+  letter-spacing: 1px;
+}
+.lsp-2 {
+  letter-spacing: 2px;
+}
+.lsp-3 {
+  letter-spacing: 3px;
+}
+.lsp-4 {
+  letter-spacing: 4px;
 }
